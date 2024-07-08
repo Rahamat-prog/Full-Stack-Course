@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queri </title>
+    <style>
+        body{
+            background-color: rgb(185, 144, 144);
+        }
+
+        div{
+            font-size:x-large;
+            text-align: center;
+        }
+        div::after{
+            content: "Welcome to the demo";
+        }
+        @media(400px <= width <= 700px ){
+            body{
+                background-color: yellow; 
+            }
+            div::after{
+                content: "I am change";
+            }
+        }
+        
+        @media(min-width:700px) and (max-width: 900px){
+            body{
+                background-color: blue;
+            }
+            div::after{
+                content: "i am change 2nd time";
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Media queri  -->
+    <!-- <h1>Lets learn media queri in css</h1> -->
+    <div></div>
+</body>
+</html>

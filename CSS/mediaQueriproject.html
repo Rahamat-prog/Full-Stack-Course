@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Quary</title>
+    <style>
+        div{
+            text-align: center;
+            font-size: x-large;
+        }
+        /* body{
+            background-color: yellow;
+        } */
+        /* For extra small phone */
+        @media( max-width: 600px){
+            body{
+                background-color: aqua;
+            }
+            div::after{
+                content: "I'm for 600px and below";
+            }
+        }
+        /* small phones */
+        @media(min-width: 600px){
+            body{
+                background-color: orange;
+            }
+            div::after{
+                content: "I am for 600px and up";
+            }
+        }
+        /* medium devices  */
+        @media(min-width:768px){
+            body{
+                background-color: blue;
+            }
+            div::after{
+                content: "I am here for 768px and up";
+            }
+        }
+        /* large devices  */
+        @media(min-width:992px){
+            body{
+                background-color: yellowgreen;
+            }
+            div::after{
+                content: "for 992px and up";
+            }
+        }
+        /* extar large device  */
+        @media(min-width: 1200px){
+            body{
+                background-color: blueviolet;
+            }
+            div::after{
+                content: "here for 1200px and up";
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- media queries -->
+    <div></div>
+</body>
+</html>
