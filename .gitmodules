@@ -26,6 +26,3 @@
 [submodule "HTML-projects"]
 	path = HTML-projects
 	url = https://github.com/Rahamat-prog/HTML-projects.git
-[submodule "JavaScript-Tutorials"]
-	path = JavaScript-Tutorials
-	url = https://github.com/Rahamat-prog/JavaScript-Tutorials.git
