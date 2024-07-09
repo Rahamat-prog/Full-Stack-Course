@@ -25,3 +25,6 @@
 [submodule "AmazClone"]
 	path = AmazClone
 	url = https://github.com/Rahamat-prog/AmazClone.git
+[submodule "HTML-projects"]
+	path = HTML-projects
+	url = https://github.com/Rahamat-prog/HTML-projects.git
