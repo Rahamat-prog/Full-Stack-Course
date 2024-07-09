@@ -1,3 +1,6 @@
 [submodule "JavaScript-Tutorials"]
 	path = JavaScript-Tutorials
 	url = https://github.com/Rahamat-prog/JavaScript-Tutorials.git
+[submodule "Learning-various-topics-in-CSS"]
+	path = Learning-various-topics-in-CSS
+	url = https://github.com/Rahamat-prog/Learning-various-topics-in-CSS.git
