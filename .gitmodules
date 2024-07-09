@@ -4,3 +4,27 @@
 [submodule "Learning-various-topics-in-CSS"]
 	path = Learning-various-topics-in-CSS
 	url = https://github.com/Rahamat-prog/Learning-various-topics-in-CSS.git
+[submodule "html-css-web-template-1"]
+	path = html-css-web-template-1
+	url = https://github.com/Rahamat-prog/html-css-web-template-1.git
+[submodule "html-css-web-template-2"]
+	path = html-css-web-template-2
+	url = https://github.com/Rahamat-prog/html-css-web-template-2.git
+[submodule "Website-Template-3-"]
+	path = Website-Template-3-
+	url = https://github.com/Rahamat-prog/Website-Template-3-.git
+[submodule "Recipe-Website-4"]
+	path = Recipe-Website-4
+	url = https://github.com/Rahamat-prog/Recipe-Website-4.git
+[submodule "Design-Cards-with-HTML-CSS-5"]
+	path = Design-Cards-with-HTML-CSS-5
+	url = https://github.com/Rahamat-prog/Design-Cards-with-HTML-CSS-5.git
+[submodule "mobile-friendly-blog-6"]
+	path = mobile-friendly-blog-6
+	url = https://github.com/Rahamat-prog/mobile-friendly-blog-6.git
+[submodule "flexi-responsive-7"]
+	path = flexi-responsive-7
+	url = https://github.com/Rahamat-prog/flexi-responsive-7.git
+[submodule "AmazClone"]
+	path = AmazClone
+	url = https://github.com/Rahamat-prog/AmazClone.git
