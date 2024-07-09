@@ -1,0 +1,25 @@
+  
+@media(min-width:935px){
+    .mainContainer{
+        grid-template-columns: repeat(2, 1fr);
+        /* width: 100%; */
+    }
+    
+}
+@media(min-width:1380px) {
+    .mainContainer{
+        grid-template-columns: repeat(3, 1fr);
+        /* width: 100%; */
+       
+
+    }
+}
+
+@media(min-width:1680px){
+    .mainContainer{
+        grid-template-columns: repeat(4, 1fr);
+        /* width: 100%; */
+       
+
+    }
+}

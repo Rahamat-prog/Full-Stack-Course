@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e0e2ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar-logo li {
+list-style: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    /* margin: 15px; */
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+li a{
+    text-decoration:none;
+}
+nav li a:hover{
+    text-decoration: underline;
+    font-style: bold;
+    font-weight:900;
+}
+.nav-search-bar{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    
+}
+.nav-search-bar input{
+    border: 1px solid black;
+    padding: 4px 10px;
+    
+}
+.nav-search-bar button{
+       padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(18, 155, 155);
+    color: white;
+    font-weight: 600;
+
+}
+.nav-search-bar button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.mainbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.mainbar-left-side h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.mainbar-left-side h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.mainbar-left-side p{
+    font-weight: 500;
+    font-size: 25px;
+}
+.mainbar-left-side p span{
+    font-weight: 700;
+    font-size: 25px;
+    color:rgb(18, 155, 155) ;
+}
+.mainbar-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    gap: 20px;
+}
+
+.mainbar-right-side button{
+    padding: 4px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(18, 155, 155);
+    color: white;
+    font-weight: 600;
+    
+}
+.mainbar-right-side button:hover{
+    background-color: white;
+    color: rgb(66, 167, 177) ;
+}
+.mainbar-right-side img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+    
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-weight: 600;
+    padding: 40px 0px;
+
+}
+.footer-left-side p{
+    font-weight: 600;
+}
+.footer-right-side ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.footer-right-side ul li a i{
+    font-weight:bold;
+    font-size: 1.5rem;
+
+}
+
+

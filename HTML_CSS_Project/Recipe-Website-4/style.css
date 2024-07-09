@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.bigContainer{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,62,219,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.navText{
+    padding: 15px 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+.listItemContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    
+}
+.listItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 1.3rem;
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 50%;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 30px black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    gap: 100px;
+
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rightimgSection{
+    position: relative;
+    display: flex;
+    transition: all 0.5s ease-out;
+    box-shadow: 1px 1px 10px black;
+
+    
+   
+    /* overflow: hidden; */
+    
+}
+.rightimgSection:hover{
+    transform: scale(1.1);
+}
+.rightimgSection img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-radius: 20px;
+    transition: all 0.5s ease-out;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 34, 34, 0.713);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+   
+
+
+}
+.overlay:hover{
+    opacity: 1;
+    
+   
+}
+.overlay p{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+}
+    
+

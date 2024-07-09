@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design card 3 </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: powderblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 700px;
+            height: 350px;
+           display: flex;
+           background-color: #4e094c;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           /* background-image: linear-gradient(160deg, #10678d 0%, #464963 100%); */
+        }
+        .container:hover{
+            background-color: red;
+            transition: margin-right 2s ease-in-out;
+        }
+  
+        .rightSide{
+            width: 50%;
+            height: 100%;
+            
+           
+        }
+        .rightSide img{
+            width: 100%;
+            height: 100%;
+            
+        }
+        .leftSide{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+
+        }
+        #heading{
+            width: 80%;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 10px;
+        }
+        .para{
+            width: 80%;
+            height: 40%;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-bottom: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Design card 3  -->
+    <div class="container">
+        <div class="leftSide">
+            <div id="heading">
+                <h2>Get insights that help your business grow</h2>
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsum odit eaque accusantium totam repellendus minus sit. Consequuntur, deleniti dignissimos?</p>
+
+            </div>
+            <div class="footer">
+                <div class="comments">
+                    <p>10K+</p>
+                    <p>Comments</p>
+                </div>
+                <div class="paidUsers">
+                    <p> 214</p>
+                    <p>Paid Users</p>
+                </div>
+                <div class="views">
+                    <p>  12M+</p>
+                    <p>Views</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightSide">
+            <img src="./Assets/icon.jpg" alt="image">
+        </div>
+    </div>
+</body>
+</html>

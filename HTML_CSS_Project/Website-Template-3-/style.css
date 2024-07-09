@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background-size: 100%; */
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/pexels-maxyne-barcel-10402282 1.png");
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    /* background-size: 100%; */
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+.nav-logo img{
+    width: 60px;
+    height: 20px;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+li a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: 500;
+    font-size: 18px;
+}
+ul a:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: 0s;
+    padding: 0.567rem 0.678rem;
+}
+.nav-button button{
+    padding: 15px 50px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(208, 85, 85);
+    border-radius: 0.5rem;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    transition:0s ;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 10%;
+    
+}
+.main-para h1{
+     font-style: none; 
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 114px;
+    color: #ffc233;
+    text-decoration:none;
+
+   
+}
+
+.main-para h1 span {
+    text-decoration: none;
+}
+
+
+.main-space{
+    margin-left: 6rem;
+}
+.main-button button{
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(215, 82, 82);
+    margin-top: 10px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.footer-logo img{
+    width: 100px;
+    margin: 5px 30px;
+
+}

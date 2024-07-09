@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+     max-width: 80vw;
+     margin: 0 auto; 
+     padding: 2rem 1rem;
+}
+
+.headerContainer{    
+    margin-bottom: 1.3rem;
+}
+.headerTitel{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.headerDesc{
+    max-width: 560px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+.boxContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.boxImageContainer{
+    position: relative;
+    height: 14rem;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.boxImage{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+.boxHeading{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(43, 41, 41);
+    padding: 10px;
+}
+.boxDes{
+   display: flex;
+   flex-direction: column;
+   margin: 10px 10px;
+   padding: 10px 10px;
+}
+.profileSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem; 
+     margin: 1rem 1rem; 
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.profileIcon{
+    width: 24px;
+    height: 24px;
+}
+.nameSection h2{
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: rgb(123, 123, 202);
+}
+.nameSection p{
+    font-size: 11px;
+    font-weight:600;
+    color: gray;
+}
+.rightButton{
+    padding: 5px 5px;
+    border-radius: 5px;
+    border-color: rgb(235, 231, 231);
+    color: rgb(15, 12, 12);
+    font-size: 0.7rem;
+}
