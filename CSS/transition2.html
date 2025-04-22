@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        #big-div{
+            width: 1000px;
+            height: 600px;
+            display: flex;
+           
+            
+
+
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            transition: width 2s linear 2s;
+
+        }
+        div:hover{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- or by using the shorthand property transition: -->
+    <div id="big-div">
+        <div class="class1"></div>
+        <div class="class2"></div>
+        <div class="class3"></div>
+        <div class="class4"></div>
+        <div class="class5"></div>
+    </div>
+    
+</body>
+</html>

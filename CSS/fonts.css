@@ -1,0 +1,50 @@
+/* body{
+    font-family: 'Josefin Sans', sans-serif;
+} */
+
+.class1{
+    padding: 10px;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.padding{
+    border: 2px solid black;
+    padding: 20px 10px 20px 10px;
+}
+
+.margin{
+    border: 2px solid black;
+    
+    margin: 50px 50px 20px 10px;
+}
+
+.text{
+    color: red;
+    /* text-align: left; */
+    text-align: justify;
+    text-indent: 10px;
+    text-transform: uppercase;
+    word-spacing: normal;
+    letter-spacing: normal;
+    
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.display{
+    display: inline;
+}
+
+.span{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    color: red;
+}

@@ -1,0 +1,29 @@
+# Ignore all .log files
+*.log
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore any directory named temp
+temp/
+
+# Ignore all files in the temp directory but not the directory itself
+temp/*
+
+# Ignore all .env files
+.env
+
+# Ignore specific file
+secret_config.txt
+
+# Ignore all files in a directory except one specific file
+docs/*
+!docs/README.md
+
+# Ignore .DS_Store file (common on macOS)
+.DS_Store
+
+# remove package file 
+.json
+
+node_modules

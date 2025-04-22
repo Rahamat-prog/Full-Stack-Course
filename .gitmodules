@@ -1,0 +1,6 @@
+[submodule "Feedback-Form-project-with-HTML"]
+	path = Feedback-Form-project-with-HTML
+	url = https://github.com/Rahamat-prog/Feedback-Form-project-with-HTML.git
+[submodule "Basic_of_HTML/audio"]
+	path = Basic_of_HTML/audio
+	url = https://github.com/Rahamat-prog/audio-file.git

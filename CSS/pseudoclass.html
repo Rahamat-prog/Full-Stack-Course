@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        .submit-bt:hover{
+            color: blue;
+            background-color: white;
+
+        }
+        .text-filed:focus{
+            color: rgb(143, 83, 83);
+            background-color: aqua;
+        }
+        .a-tag:link{
+            color: #f90e0e;
+
+        }
+        /* .a-tag2:visited{
+            color: red;
+
+        } */
+        .a-tag2:active{
+            color: yellow;
+
+        }
+        .class1:first-child{
+            color: red;
+        }
+        .class2:nth-child(2n+1){
+            color:blue;
+        }
+        .class3::after{
+            content: "!addasdsd";
+            color: green;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Lets  learn pseudo  classes  -->
+    <h1>Pseudo Classes</h1>
+    <input class="submit-bt" type="submit" id="" > <hr>
+    <input class="text-filed" type="text"> <hr>
+    <a class="a-tag" href="https://www.google.com/">Google</a><hr>
+    <a class="a-tag2" href="https://www.google.com/">Google</a> <hr>
+    <div>
+        <p class="class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+        <p class="class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+    
+    </div> <hr>
+    <div>
+        <p class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+        <p class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+        <p class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+        <p class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+        <p class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p>
+        <p class="class2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptate.</p> 
+    </div> <hr>
+
+    <!-- pseudo element  -->
+    <h1>Lets learn pseudo element </h1> 
+    <p class="class3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, natus fugit eveniet ratione non esse rerum magni harum deserunt similique.</p>   
+   
+   
+</body>
+</html>

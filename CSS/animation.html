@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+            animation-name: colorChange;
+            animation-duration: 3s;
+            animation-delay: 3s;
+            animation-iteration-count: 3;
+            animation-direction:normal;
+            animation-timing-function: linear;
+        }
+        /* @keyframes colorChange{
+            from{background-color: yellow;}
+            to{background-color: blue;}
+        } */
+        #ease{
+            animation-timing-function: ease;
+        }
+        #linear{
+            animation-timing-function: linear;
+        }
+        #ease-in{
+            animation-timing-function: ease-in;
+        }
+        #ease-in-out{
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes colorChange{
+            0%{
+                top: 0px;
+                left: 0px;
+               background-color: yellow; 
+            }
+            25%{
+                top: 0px;
+                left: 200px;
+                background-color: blue;
+            }
+            50%{
+                left: 200px;
+                top: 200px;
+                background-color: green;
+            }
+            75%{
+                top: 200px;
+                right: 0px;
+                left: 0px;
+                background-color: black;
+            }
+        
+            100%{
+                left: 0px;
+                top: 0px;
+                background-color: blanchedalmond;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animation in css  -->
+    <h1>Lets learn Animation </h1>
+    <div id="ease">ease</div>
+    <div id="linear">linear</div>
+    <div id="ease-in">ease-in</div>
+    <div id="ease-in-out">ease-in-out</div>
+</body>
+</html>

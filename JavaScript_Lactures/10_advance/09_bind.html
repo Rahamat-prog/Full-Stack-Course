@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Click Button</button>
+
+
+<script>
+ const button = document.querySelector('button')
+
+class React {
+    constructor(library, server) {
+        this.library = 'React'
+        this.server = 'https://localhost:300'
+
+         // Requirement: Add an event listener to a button
+        button.addEventListener('click', this.handleClick.bind(this)) 
+    }
+    handleClick() {
+        console.log('button is clicked', this.library);
+        console.log(this.server); 
+}
+}
+const app = new React()
+
+//Preserving this Context: When passing a method as a callback, the original this context might be lost. Using bind ensures the correct this context is preserved.
+</script>
+</body>
+</html>
